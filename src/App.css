@@ -1,0 +1,121 @@
+body {
+  background: #fffaef;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: end;
+  width: 100vw;
+  height: 30vh;
+  position: relative;
+}
+
+.formtext {
+  position: relative;
+}
+
+.textarea {
+  resize: none;
+}
+
+.inputText {
+  margin: 10px 10px 10px;
+  text-align:center;
+  box-sizing: border-box;
+  width: 140px;
+  height: 30px;
+  font-size: 20px;
+  letter-spacing: .1rem;
+  border: 1px solid #000000;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.button {
+
+  box-sizing: border-box;
+  width: 67px;
+  height: 32px;
+  border: 1px solid #000000;
+  border-radius: 5px 5px 5px 5px;
+  background: #FBD840;
+}
+
+.but__send {
+  position: absolute;
+  top: 45px;
+  right: 4px;
+  padding: 9px 0px;
+  align-self: center;
+}
+
+.but__refresh {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 9px 0px;
+  align-self: center;
+}
+
+.labelInput {
+  position: absolute;
+  top: -25px;
+  left: 10px;
+}
+
+.input__box {
+  display: inline-block;
+  position: relative;
+}
+
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  width: 100vw;
+  height: 50vh;
+  position: relative;
+  margin-top: 20px;
+}
+
+.result {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+}
+
+.data_block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.message {
+  /* display: block; */
+  display: flex;
+  box-sizing:border-box;
+  /* overflow: hidden; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 30px 15px 30px;
+  outline: 2px solid #00af64;
+  border-radius: 5%;
+}
+
+.btn_close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
